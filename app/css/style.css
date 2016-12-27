@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  position: relative; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.container {
+  height: 100%; }
+
+.col1 {
+  width: 8.33%; }
+
+.col2 {
+  width: 16.66%; }
+
+.col3 {
+  width: 25%; }
+
+.col4 {
+  width: 33.33%; }
+
+.col5 {
+  width: 41.66%; }
+
+.col6 {
+  width: 50%; }
+
+.col7 {
+  width: 58.33%; }
+
+.col8 {
+  width: 66.66%; }
+
+.col9 {
+  width: 75%; }
+
+.col10 {
+  width: 83.33%; }
+
+.col11 {
+  width: 91.66%; }
+
+.col12 {
+  width: 100%; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+.clearfix {
+  clear: both; }
+
+.home-page .header {
+  height: 60px;
+  background: #c7c7c7; }
+  .home-page .header .main-logo {
+    line-height: 60px;
+    padding: 0 20px; }
+
+.home-page .main-section {
+  padding: 60px;
+  text-align: center; }
+
+.box-style {
+  width: 48%;
+  border: 1px solid;
+  height: 200px; }
+  .box-style .desc-section {
+    padding: 15px; }
+
+/* Modal Content */
+.modal-content {
+  position: absolute;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+  right: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animateright;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animateright;
+  animation-duration: 0.4s;
+  bottom: 30px; }
+
+@media only screen and (max-width: 320px) {
+  .modal-content {
+    width: 100%; } }
+
+/* Add Animation */
+@-webkit-keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0; }
+  to {
+    right: 300;
+    opacity: 1; } }
+
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0; }
+  to {
+    right: 300;
+    opacity: 1; } }
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/*.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}*/
+.modal-body {
+  padding: 15px 16px; }
+  .modal-body .title {
+    padding: 10px;
+    text-align: center; }

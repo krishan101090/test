@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <title>Assignment Front-end</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-resource.min.js">
+  </script>
+  <script src="js/app.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/css3-mixins.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" /> </head>
+
+<body ng-controller="HomeCtrl" ng-init="onclick()">
+  <div class="home-page">
+    <div class="header">
+      <div class="main-logo">YOURSTORE.COM</div>
+    </div>
+    <div class="main-section">Page Content</div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-body">
+          <div>
+            <span class="close">&times;</span>
+            <div class="clearfix"></div>
+          </div>
+          <div class="title">
+            <h1>Are You Looking for what?</h1>
+          </div>
+          <div class="main-product-wrap">
+            <div class="pull-left box-style">
+              <div class="img-box">
+                <img class="pull-left" src="images/r1.jpg" width="50%;" />
+                <img class="pull-right" src="images/r2.jpg" width="50%;" />
+                <div class="clearfix"></div>
+              </div>
+              <div class="desc-section">
+                <div>Cotton white Dress</div>
+                <div>See More</div>
+              </div>
+            </div>
+            <div class="pull-right box-style">
+              <div class="img-box">
+                <img class="pull-left" src="images/r3.jpg" width="50%;" />
+                <img class="pull-right" src="images/r2.jpg" width="50%;" />
+                <div class="clearfix"></div>
+              </div>
+              <div class="desc-section">
+                <div>Cotton white Dress</div>
+                <div>See More</div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
